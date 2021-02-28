@@ -1,10 +1,9 @@
-// const { formats } = require("dayjs/locale/*");
 const dice = ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"]
 
-const input = document.querySelector("#number-of-dice-input"); //grabs element of the number of dice to roll
-let pDiceRolled = document.querySelector("#dice-para"); // grabs p element that stores values of each dice rolled in one roll event
-let pDiceRollSum = document.querySelector("#sum-para"); // grabs p element that stores sum of above values
-const ul = document.querySelector("#roll-history"); //
+const input = document.querySelector("#number-of-dice-input");
+let pDiceRolled = document.querySelector("#dice-para");
+let pDiceRollSum = document.querySelector("#sum-para");
+const ul = document.querySelector("#roll-history");
 const button = document.querySelector("#generate-dice-roll-btn");
 const original = pDiceRolled.textContent;
 

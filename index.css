@@ -1,0 +1,40 @@
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: lightpink;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+h2 {
+    color: lightpink;
+    font-family: cursive;
+    font-size: 45px;
+    /* margin-bottom: 0%; */
+}
+
+#dice-para {
+    font-size: 50px;
+    /* margin: 0%; */
+}
+
+#sum-para {
+    font-size: 25px;
+}
+
+ul {
+    /* margin: 10px; */
+    font-size: 25px;
+}
+
+#first {
+    border-style: double;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#second {
+    border-style: double;
+}
